@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MatankaladanActivity"
+    android:background="#f3f3f3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bukit Matang Kaladan"
+        android:id="@+id/judul"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/matankaladan" />
+
+    <TextView
+        android:id="@+id/konten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:textColor="#000000"
+        android:text="@string/matankaladan"
+        android:textSize="12sp" />
+
+</LinearLayout>

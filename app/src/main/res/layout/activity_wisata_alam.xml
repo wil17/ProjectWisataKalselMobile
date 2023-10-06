@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#f3f3f3">
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/pantaiangsana"/>
+
+    <Button
+        android:id="@+id/btn_pantaiangsana"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/pantai_angsana"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="210dp"
+        android:src="@drawable/gunung_halau_halau"/>
+
+    <Button
+        android:id="@+id/btn_gununghalau"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="230dp"
+        android:text="@string/gunung_halau_halau"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/airterjun_bajuin"/>
+
+    <Button
+        android:id="@+id/btn_bajuin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/air_terjun_bajuin"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="210dp"
+        android:src="@drawable/pantai_tamiang2"/>
+
+    <Button
+        android:id="@+id/btn_pantaitamiang"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="230dp"
+        android:text="@string/pantai_tamiang"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/mandiangin2"/>
+
+    <Button
+        android:id="@+id/btn_mandiangin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/mandi_angin"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="210dp"
+        android:src="@drawable/danau_biru2"/>
+
+    <Button
+        android:id="@+id/btn_danaubiru"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="230dp"
+        android:text="@string/danau_biru"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+
+</RelativeLayout>

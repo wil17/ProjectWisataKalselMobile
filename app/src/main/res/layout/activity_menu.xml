@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/user_details"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="delphiaaryana25@gmail.com" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="290dp"
+        android:text="@string/logout"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="Peta"
+        android:backgroundTint="@color/teal_700"/>
+
+    <Button
+        android:id="@+id/btn_wisata"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="30dp"
+        android:text="Wisata Banjarmasin"
+        android:backgroundTint="#a5d7e8"/>
+
+    <Button
+        android:id="@+id/btn_admin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="230dp"
+        android:text="Admin"
+        android:backgroundTint="#a5d7e8"/>
+
+    <Button
+        android:id="@+id/btn_etika"
+        android:layout_width="150dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="30dp"
+        android:text="Etika Berwisata"
+        android:backgroundTint="#a5d7e8"/>
+
+    <Button
+        android:id="@+id/btn_wisataedukasi"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="230dp"
+        android:text="Petunjuk Simaksi"
+        android:backgroundTint="#a5d7e8"/>
+
+</RelativeLayout>
